@@ -1,0 +1,316 @@
+{
+  /* アクション */
+  "actions": [
+    /* タブを複製 */
+    {
+      "command": "duplicateTab",
+      "id": "User.duplicateTab"
+    },
+    /* タブを閉じる */
+    {
+      "command": "closeTab",
+      "id": "User.closeTab"
+    },
+    /* コピー */
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy"
+    },
+    /* 貼り付け */
+    {
+      "command": "paste",
+      "id": "User.paste"
+    },
+    /* 検索 */
+    {
+      "command": "find",
+      "id": "User.find"
+    },
+    /* Ctrl+Shift+Up をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;6A"
+      },
+      "id": "User.sendInput.ctrlShiftUp"
+    },
+    /* Ctrl+Shift+Down をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;6B"
+      },
+      "id": "User.sendInput.ctrlShiftDown"
+    },
+    /* Ctrl+Shift+Left をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;6D"
+      },
+      "id": "User.sendInput.ctrlShiftLeft"
+    },
+    /* Ctrl+Shift+Right をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;6C"
+      },
+      "id": "User.sendInput.ctrlShiftRight"
+    },
+    /* Alt+Left をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;3D"
+      },
+      "id": "User.sendInput.altLeft"
+    },
+    /* Alt+Down をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;3B"
+      },
+      "id": "User.sendInput.altDown"
+    },
+    /* Alt+Up をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;3A"
+      },
+      "id": "User.sendInput.altUp"
+    },
+    /* Alt+Right をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;3C"
+      },
+      "id": "User.sendInput.altRight"
+    },
+    /* Ctrl+Alt+Up をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;7A"
+      },
+      "id": "User.sendInput.ctrlAltUp"
+    },
+    /* Ctrl+Alt+Down をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;7B"
+      },
+      "id": "User.sendInput.ctrlAltDown"
+    },
+    /* Ctrl+Alt+Left をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;7D"
+      },
+      "id": "User.sendInput.ctrlAltLeft"
+    },
+    /* Ctrl+Alt+Right をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;7C"
+      },
+      "id": "User.sendInput.ctrlAltRight"
+    },
+    /* Ctrl+Shift+` をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[96;6u"
+      },
+      "id": "User.sendInput.ctrlShiftGrave"
+    },
+    /* Shift+Enter をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\n"
+      },
+      "id": "User.sendInput.shiftEnter"
+    },
+    /* Ctrl+Shift+C をアプリに送信 */
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[99;6u"
+      },
+      "id": "User.sendInput.ctrlShiftC"
+    }
+  ],
+  /* キーバインド */
+  "keybindings": [
+    /* タブを複製 */
+    {
+      "id": "User.duplicateTab",
+      "keys": "ctrl+t"
+    },
+    /* タブを閉じる */
+    {
+      "id": "User.closeTab",
+      "keys": "ctrl+shift+backspace"
+    },
+    /* コピー */
+    {
+      "id": "User.copy",
+      "keys": "ctrl+c"
+    },
+    /* 貼り付け */
+    {
+      "id": "User.paste",
+      "keys": "ctrl+shift+v"
+    },
+    /* 検索 */
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    /* Ctrl+Shift+Up をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftUp",
+      "keys": "ctrl+shift+up"
+    },
+    /* Ctrl+Shift+Down をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftDown",
+      "keys": "ctrl+shift+down"
+    },
+    /* Ctrl+Shift+Left をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftLeft",
+      "keys": "ctrl+shift+left"
+    },
+    /* Ctrl+Shift+Right をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftRight",
+      "keys": "ctrl+shift+right"
+    },
+    /* Alt+Left をアプリに送信 */
+    {
+      "id": "User.sendInput.altLeft",
+      "keys": "alt+left"
+    },
+    /* Alt+Down をアプリに送信 */
+    {
+      "id": "User.sendInput.altDown",
+      "keys": "alt+down"
+    },
+    /* Alt+Up をアプリに送信 */
+    {
+      "id": "User.sendInput.altUp",
+      "keys": "alt+up"
+    },
+    /* Alt+Right をアプリに送信 */
+    {
+      "id": "User.sendInput.altRight",
+      "keys": "alt+right"
+    },
+    /* Ctrl+Alt+Up をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlAltUp",
+      "keys": "ctrl+alt+up"
+    },
+    /* Ctrl+Alt+Down をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlAltDown",
+      "keys": "ctrl+alt+down"
+    },
+    /* Ctrl+Alt+Left をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlAltLeft",
+      "keys": "ctrl+alt+left"
+    },
+    /* Ctrl+Alt+Right をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlAltRight",
+      "keys": "ctrl+alt+right"
+    },
+    /* Ctrl+Shift+` をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftGrave",
+      "keys": "ctrl+shift+`"
+    },
+    /* Shift+Enter をアプリに送信 */
+    {
+      "id": "User.sendInput.shiftEnter",
+      "keys": "shift+enter"
+    },
+    /* Ctrl+Shift+C をアプリに送信 */
+    {
+      "id": "User.sendInput.ctrlShiftC",
+      "keys": "ctrl+shift+c"
+    },
+    /* 無効化：Windows Terminalのデフォルト動作を抑制 */
+    {
+      "id": null,
+      "keys": "ctrl+a"
+    },
+    {
+      "id": null,
+      "keys": "ctrl+q"
+    },
+    {
+      "id": null,
+      "keys": "ctrl+w"
+    },
+    {
+      "id": null,
+      "keys": "ctrl+shift+n"
+    }
+  ],
+  /* プロファイル */
+  "profiles": {
+    /* 全プロファイル共通 */
+    "defaults": {
+      /* カラースキーム */
+      "colorScheme": "GitHub",
+      /* カーソル形状 */
+      "cursorShape": "bar",
+      /* フォント */
+      "font": {
+        "face": "JetBrainsMono Nerd Font Mono",
+        "size": 14
+      },
+      /* スクロールバー */
+      "scrollbarState": "hidden"
+    }
+  },
+  /* カラースキーム */
+  "schemes": [
+    {
+      "name": "GitHub",
+      "background": "#1A1E22",
+      "foreground": "#F7F7F7",
+      "cursorColor": "#F7F7F7",
+      "selectionBackground": "#F7F7F7",
+      "black": "#0C0C0C",
+      "red": "#C50F1F",
+      "green": "#13A10E",
+      "yellow": "#C19C00",
+      "blue": "#0037DA",
+      "purple": "#881798",
+      "cyan": "#3A96DD",
+      "white": "#CCCCCC",
+      "brightBlack": "#767676",
+      "brightRed": "#E74856",
+      "brightGreen": "#16C60C",
+      "brightYellow": "#F9F1A5",
+      "brightBlue": "#3B78FF",
+      "brightPurple": "#B4009E",
+      "brightCyan": "#61D6D6",
+      "brightWhite": "#F7F7F7"
+    }
+  ]
+}

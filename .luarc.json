@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "LuaJIT",
+    "path": ["?.lua", "?/init.lua", "nvim/?.lua", "nvim/?/init.lua"]
+  },
+  "workspace": {
+    "library": ["$VIMRUNTIME/lua", "$HOME/.local/share/nvim/lazy", "${3rd}/luv/library"],
+    "checkThirdParty": false
+  },
+  "diagnostics": {
+    "severity": {
+      "undefined-field": "Error"
+    }
+  }
+}
